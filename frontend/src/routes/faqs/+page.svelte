@@ -3,3 +3,4 @@
 </script>
 
 <Header/>
+<h1>Frequently Asked Questions</h1>

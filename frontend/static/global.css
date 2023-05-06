@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 :root {
   font-family: 'Cinzel', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -18,4 +19,19 @@
 a {
   text-decoration: none;
   font-weight: bold;
+  color: #AB8E76;
+}
+
+a:hover {
+  color: #CD7F32;
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Varela Round', 'Cinzel', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style-position: inside;
+  font-family: 'Varela Round', 'Cinzel', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
