@@ -46,11 +46,11 @@
   }
 
   a {
-    color: #AB8E76;
     font-size: 5vw;
   }
 
   a:hover {
     color: #CD7F32;
+    text-decoration: none;
   }
 </style>
