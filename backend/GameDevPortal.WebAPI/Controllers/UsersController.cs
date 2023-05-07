@@ -70,6 +70,7 @@ public class UsersController : ControllerBase
         var userId = User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value;
         var userRole = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
 
+        // TODO: Use a policy to do this together with an IAuthorizationService
         if (id.ToString() != userId && userRole != "Administrator")
         {
             return Unauthorized("You are not authorized to access this account's information.");
