@@ -12,7 +12,7 @@ using System.Runtime.InteropServices;
 namespace GameDevPortal.WebAPI.Controllers
 {
     [ApiController]
-    [Route("categories")]
+    [Route("api/categories")]
     public class CategoryController : ControllerBase
     {
         private const string _getName = $"{nameof(Get)}{nameof(Category)}";

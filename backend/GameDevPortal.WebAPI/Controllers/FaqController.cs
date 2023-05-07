@@ -12,7 +12,7 @@ using System.Runtime.InteropServices;
 namespace GameDevPortal.WebAPI.Controllers
 {
     [ApiController]
-    [Route("faq")]
+    [Route("api/faq")]
     public class FaqController : ControllerBase
     {
         private const string _getName = $"{nameof(Get)}{nameof(Faq)}";

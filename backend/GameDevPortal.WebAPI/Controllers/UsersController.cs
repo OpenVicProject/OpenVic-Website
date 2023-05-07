@@ -13,7 +13,7 @@ using System.Text.RegularExpressions;
 namespace ConsoleProjectManagement.WebAPI.Controllers;
 
 [ApiController]
-[Route("users"), Authorize]
+[Route("api/users"), Authorize]
 public class UsersController : ControllerBase
 {
     private readonly IMapper _mapper;

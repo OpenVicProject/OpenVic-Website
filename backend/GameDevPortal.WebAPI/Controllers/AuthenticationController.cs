@@ -10,7 +10,7 @@ using Microsoft.Extensions.Primitives;
 namespace ConsoleProjectManagement.WebAPI.Controllers;
 
 [ApiController]
-[Route("authentication"), Authorize]
+[Route("api/authentication"), Authorize]
 public class AuthenticationController : ControllerBase
 {
     private readonly IAuthenticationService _authManager;

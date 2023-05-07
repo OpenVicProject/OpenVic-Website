@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 namespace GameDevPortal.WebAPI.Controllers
 {
     [ApiController]
-    [Route("projects")]
+    [Route("api/projects")]
     public class ProjectController : ControllerBase
     {
         private const string _getName = $"{nameof(Get)}{nameof(Project)}";

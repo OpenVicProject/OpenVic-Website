@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 namespace GameDevPortal.WebAPI.Controllers
 {
     [ApiController]
-    [Route("progress-reports")]
+    [Route("api/progress-reports")]
     public class ProgressReportController : ControllerBase
     {
         private const string _getName = $"{nameof(Get)}{nameof(ProgressReport)}";
