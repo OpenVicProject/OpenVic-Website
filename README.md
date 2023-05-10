@@ -1,5 +1,5 @@
-# OpenVic2-Website
-Website for the OpenVic2 project.
+# OpenVic-Website
+Website for the OpenVic project.
 
-frontend in /frontend
-backend to be added to /backend
+frontend uses SvelteKit, in /frontend
+backend uses ASP.NET, in /backend

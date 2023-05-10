@@ -7,7 +7,7 @@
     <h1>oops, looks like that doesn't exist!</h1>
     <h3>if you're sure you've got the link right, try reloading or going back</h3>
 {:else}
-    <h1>oops, theres some sort of issue</h1>
+    <h1>oops, there's some sort of issue</h1>
     <h3>try reloading, and if that doesn't work contact us!</h3>
 {/if}
 <a href="/">go home</a>
