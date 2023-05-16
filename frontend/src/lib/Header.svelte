@@ -7,7 +7,7 @@
 <div id="header-background">
   <div id="header">
     <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <img src="/ov2.png" on:click={goHome} id="ov2img" alt="OpenVic Logo" width="8%" height="8%">
+    <img src="/ov.png" on:click={goHome} id="ov2img" alt="OpenVic Logo" width="8%" height="8%">
     <a href="/faqs">faqs</a>
     <a href="/news">news</a>
     <a href="/about">about</a>
