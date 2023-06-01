@@ -19,7 +19,7 @@
   #header-background {
     text-align: center;
     background-color: #AB8E76;
-    margin: 1%;
+    margin: 1.5%;
     padding: 0.5%;
     border-radius: 2.5vw;
   }
