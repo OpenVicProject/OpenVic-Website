@@ -3,9 +3,9 @@
 </script>
 
 <Header/>
-<a href="https://openvicstorage.blob.core.windows.net/dev-diaries/Dev_diary_5.pdf" target="_blank" rel="noopener noreferrer">
-    <img id="map" src="/dd5.png" alt="Project Roadmap"><br>
-    Dev Diary V: Requirements
+<a href="https://openvicstorage.blob.core.windows.net/dev-diaries/Dev_Diary_6_.pdf" target="_blank" rel="noopener noreferrer">
+    <img id="map" src="/dd6.png" alt="Victoria II GUI with London Province Selected"><br>
+    Dev Diary VI:
 </a>
 
 <style>
