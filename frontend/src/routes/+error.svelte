@@ -16,7 +16,6 @@
     :root {
         text-align: center;
         color: white;
-        font-size: 2vw;
     }
     a {
         color: white;

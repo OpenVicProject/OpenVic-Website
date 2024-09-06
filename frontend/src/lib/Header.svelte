@@ -1,35 +1,28 @@
-<script>
-    function goHome() {
-      window.location.href = "/"
-    }
-</script>
-  
-<div id="header-background">
-  <div id="header">
-    <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <img src="/ov.png" on:click={goHome} id="ov2img" alt="OpenVic Logo" width="8%" height="8%">
-    <a href="/faqs">faqs</a>
-    <a href="/news">news</a>
-    <a href="/about">about</a>
-    <a href="/contribute">contribute</a>
-  </div>
+<div class="flex-horizontal" style="align-items: center;">
+	<a class="flex-vertical" href="/">
+		<img src="/ov.png" id="ov2img" alt="OpenVic Logo" width="128px" height="128px">
+	</a>
+	<div id="header-background" class="flex-grow">
+		<div id="header" class="flex-horizontal">
+			<a class="flex-grow xxx-l" href="/faqs">faqs</a>
+			<a class="flex-grow xxx-l" href="/news">news</a>
+			<a class="flex-grow xxx-l" href="/about">about</a>
+			<a class="flex-grow xxx-l" href="/contribute">contribute</a>
+		</div>
+	</div>
 </div>
 
 <style>
   #header-background {
     text-align: center;
     background-color: #AB8E76;
-    margin: 1.5%;
     padding: 0.5%;
     border-radius: 2.5vw;
   }
 
   #header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+	flex-wrap: wrap;
     align-items: center;
-    text-align: left;
     background-color: #FFFDD0;
     border-radius: 2.1vw;
   }
@@ -41,10 +34,6 @@
   #ov2img:hover {
     filter: brightness(0) saturate(100%) invert(78%) sepia(63%) saturate(3227%) hue-rotate(335deg) brightness(84%) contrast(90%);
     cursor: pointer;
-  }
-
-  a {
-    font-size: 5vw;
   }
 
   a:hover {

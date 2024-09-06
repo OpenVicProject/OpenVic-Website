@@ -16,6 +16,9 @@
   background-size: 214px;
 }
 
+body {
+	margin: 1vh 2%;
+}
 a {
   text-decoration: none;
   font-weight: bold;
@@ -34,4 +37,29 @@ p {
 ul {
   list-style-position: inside;
   font-family: 'Varela Round', 'Cinzel', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.flex-horizontal {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-vertical {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-grow {
+	flex-grow: 1;
+}
+
+.xxx-l {
+	font-size: xxx-large;
+}
+
+.xx-l {
+	font-size: xx-large;
+}
+
+.x-l {
+	font-size: x-large;
 }
