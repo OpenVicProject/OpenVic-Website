@@ -4,6 +4,7 @@
 
 <Header/>
 <h1>Dev Diaries</h1>
+<a href="https://openvicstorage.blob.core.windows.net/dev-diaries/Dev_Diary_8.pdf" target="_blank" rel="noopener noreferrer">Dev Diary 8</a><br>
 <a href="https://openvicstorage.blob.core.windows.net/dev-diaries/Dev_Diary_7.pdf" target="_blank" rel="noopener noreferrer">Dev Diary 7</a><br>
 <a href="https://openvicstorage.blob.core.windows.net/dev-diaries/Dev_Diary_6_.pdf" target="_blank" rel="noopener noreferrer">Dev Diary 6</a><br>
 <a href="https://openvicstorage.blob.core.windows.net/dev-diaries/Dev_diary_5.pdf" target="_blank" rel="noopener noreferrer">Dev Diary 5</a><br>
